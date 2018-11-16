@@ -21,7 +21,7 @@ trait InternalResponse {
     /**
      * @param int number of errors being returned
      */
-    protected $hasErrors = 0 ;
+    private $hasErrors = 0 ;
 
     /**
      * Format the response to send back to the controller
